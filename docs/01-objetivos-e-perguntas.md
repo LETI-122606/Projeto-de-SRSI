@@ -37,3 +37,7 @@ Descreve a distribuição temporal e os tipos de contributo dos nove estudos ana
 | Context | Aplicações que consultam documentos, processam dados externos ou utilizam ferramentas e APIs. |
 
 As perguntas e a estrutura PIPOC seguem o enquadramento descrito no relatório do projeto.
+
+## Ligação à componente prática futura
+
+A revisão teórica servirá de base a uma componente prática a desenvolver numa fase posterior. Nessa fase, pretende-se simular, num ambiente controlado, alguns dos cenários de *prompt injection* identificados e avaliar as métricas de sucesso e de desempenho recolhidas nos estudos. Esta componente ainda não foi executada. A sua preparação está descrita em [07-trabalho-futuro.md](07-trabalho-futuro.md).

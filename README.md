@@ -15,7 +15,7 @@ A pergunta geral e as quatro perguntas de investigação estão em [docs/01-obje
 
 ## Conteúdo do repositório
 
-- **docs/** — documentação do âmbito, protocolo, pesquisas, seleção, extração e análise.
+- **docs/** — documentação do âmbito, protocolo, pesquisas, seleção, extração, análise e trabalho futuro.
 - **data/** — dados de extração dos nove estudos analisados, exportados do Parsifal.
 - **references/references.md** — referências bibliográficas do relatório.
 
@@ -31,6 +31,19 @@ Os números das pesquisas V1, V2, S3 e S4 disponíveis no relatório são apenas
 
 As métricas dos artigos também não são diretamente equivalentes. Por esse motivo, os resultados são apresentados no contexto de cada estudo e não é calculada uma média global nem uma classificação geral das defesas.
 
+## Trabalho futuro: componente prática
+
+A componente prática do projeto está prevista para uma fase posterior e **ainda não foi realizada**. A ideia é escolher um ambiente controlado e utilizá-lo para simular cenários de *prompt injection* e testar algumas das defesas identificadas na revisão teórica. Pretende-se verificar se as métricas de sucesso e de desempenho recolhidas nos artigos podem ser reproduzidas nesse ambiente, tendo em conta as diferenças entre modelos, tarefas e configurações.
+
+Na preparação e execução dessa fase, deverão ser respondidas duas perguntas:
+
+- **Porque é que escolhemos o ambiente em que estamos a trabalhar?**
+- **De que maneira é que o nosso ambiente poderia ser diferente e melhor?**
+
+A primeira pergunta servirá para justificar a escolha do ambiente e explicar se permite representar os riscos estudados, configurar ferramentas e permissões, simular ataques e recolher métricas de forma controlada. A segunda orientará a análise das limitações do ambiente e a identificação de melhorias possíveis. Nesta fase não é assumido um ambiente específico nem são apresentados resultados experimentais próprios.
+
+A proposta e os pontos a desenvolver estão em [docs/07-trabalho-futuro.md](docs/07-trabalho-futuro.md).
+
 ## Estrutura
 
 | Caminho | Conteúdo |
@@ -41,9 +54,10 @@ As métricas dos artigos também não são diretamente equivalentes. Por esse mo
 | docs/04-selecao-dos-estudos.md | Registos, duplicados, seleção e limitações |
 | docs/05-extracao-de-dados.md | Processo e campos de extração do Parsifal |
 | docs/06-resultados-e-limitacoes.md | Síntese dos nove estudos e principais resultados |
+| docs/07-trabalho-futuro.md | Preparação da futura componente prática |
 | data/parsifal/data-extraction.csv | Exportação dos dados de extração |
 | references/references.md | Referências bibliográficas |
 
 ## Nota sobre o âmbito
 
-Este repositório documenta a revisão da literatura e os dados extraídos. Não contém uma implementação experimental própria de um agente ou de uma defesa. As conclusões dizem respeito aos nove estudos analisados e às condições experimentais descritas pelos respetivos autores.
+Este repositório documenta a revisão da literatura e os dados extraídos. A implementação experimental própria ainda não foi realizada nesta fase; está prevista como componente prática futura e é enquadrada em [docs/07-trabalho-futuro.md](docs/07-trabalho-futuro.md). As conclusões atuais dizem respeito aos nove estudos analisados e às condições experimentais descritas pelos respetivos autores.

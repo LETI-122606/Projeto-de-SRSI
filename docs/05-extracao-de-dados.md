@@ -4,11 +4,11 @@
 
 O Parsifal foi utilizado para reunir as referências e registar os dados dos estudos selecionados. Para cada um dos nove estudos analisados em profundidade foi preenchido um formulário com **12 campos de extração**, além do título do artigo.
 
-A exportação foi convertida para CSV e guardada de forma comprimida em:
+A exportação foi convertida para CSV e guardada em:
 
-**data/parsifal/data-extraction.csv.gz**
+**data/parsifal/data-extraction.csv**
 
-As instruções para descomprimir e abrir o ficheiro estão em [data/README.md](../data/README.md).
+As instruções para abrir o ficheiro estão em [data/README.md](../data/README.md).
 
 ## Dicionário de dados
 
