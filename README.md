@@ -35,6 +35,8 @@ As métricas dos artigos também não são diretamente equivalentes. Por esse mo
 
 A componente prática do projeto está prevista para uma fase posterior e **ainda não foi realizada**. A ideia é escolher um ambiente controlado e utilizá-lo para simular cenários de *prompt injection* e testar algumas das defesas identificadas na revisão teórica. Pretende-se verificar se as métricas de sucesso e de desempenho recolhidas nos artigos podem ser reproduzidas nesse ambiente, tendo em conta as diferenças entre modelos, tarefas e configurações.
 
+A estratégia de avaliação prevista é **benchmarking**: definir cenários e condições de teste, executar tarefas com e sem ataques ou mecanismos de defesa e comparar os resultados através de métricas. Como possível abordagem para executar os testes no ambiente escolhido, poderá recorrer-se a *black-box testing*, avaliando o comportamento observável do sistema a partir das entradas, respostas e ações produzidas, sem depender do acesso à sua implementação interna. Assim, o *black-box testing* é uma possível abordagem de teste dentro do benchmarking, não uma alternativa ao benchmarking.
+
 Na preparação e execução dessa fase, deverão ser respondidas duas perguntas:
 
 - **Porque é que escolhemos o ambiente em que estamos a trabalhar?**

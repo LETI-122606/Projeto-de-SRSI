@@ -36,6 +36,14 @@ Depois de escolhido o ambiente, a componente prática poderá seguir estas etapa
 4. **Testar as defesas:** selecionar mecanismos identificados na revisão e comparar os resultados com as configurações sem proteção.
 5. **Recolher e analisar métricas:** escolher as métricas que o ambiente permite medir e comparar os resultados com os valores reportados nos artigos.
 
+### Estratégia de avaliação: benchmarking e black-box testing
+
+A estratégia de avaliação definida para a componente prática é **benchmarking**. Isto implica organizar um conjunto de cenários e tarefas, executá-los em condições controladas e comparar os resultados através de métricas. A comparação poderá ser feita entre a configuração sem defesa e as configurações com os mecanismos de proteção selecionados, bem como com os resultados reportados nos estudos analisados.
+
+Como possível abordagem para executar os testes, poderá ser utilizado **black-box testing**. Nesta abordagem, o sistema é avaliado pelo seu comportamento observável, a partir das entradas fornecidas e das respostas e ações produzidas, sem exigir acesso ao código ou à implementação interna do LLM ou do agente. No contexto deste projeto, poderão ser observadas, por exemplo, as respostas do agente, as chamadas a ferramentas, as tentativas de acesso a dados e a eventual divulgação de informação.
+
+As duas ideias complementam-se: **benchmarking define a estrutura de avaliação e comparação**, enquanto **black-box testing é uma possível abordagem para testar o comportamento do sistema**. A sua aplicação concreta dependerá do ambiente escolhido e dos dados que seja possível observar. Esta hipótese não representa uma decisão final nem significa que os testes já tenham sido realizados.
+
 Entre as métricas que poderão ser consideradas estão a taxa de sucesso dos ataques (ASR e variantes), o sucesso das tarefas legítimas, a utilidade sob ataque, os falsos positivos, a latência e os custos. A escolha dependerá dos cenários e dos mecanismos efetivamente implementados. Métricas como ASR, ASR-valid e ASV têm definições diferentes e não deverão ser tratadas como equivalentes nem agregadas sem justificação.
 
 O objetivo será verificar se os resultados e as tendências descritos na literatura podem ser observados no ambiente escolhido. Não se deverá esperar uma reprodução exata dos valores quando os modelos, os dados, as tarefas ou as configurações forem diferentes.

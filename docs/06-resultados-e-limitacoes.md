@@ -58,6 +58,8 @@ Por estas razões, as conclusões devem ser entendidas como uma síntese crític
 
 A revisão teórica fornece a base para uma componente prática a desenvolver numa fase posterior. Essa componente ainda não foi realizada. O objetivo será selecionar um ambiente controlado, simular cenários de *prompt injection* e avaliar algumas das defesas identificadas, procurando reproduzir as métricas de sucesso e de desempenho recolhidas nos artigos.
 
+A estratégia de avaliação prevista é **benchmarking**: organizar cenários e tarefas, executá-los em condições controladas e comparar os resultados através de métricas. Como possível abordagem para executar os testes, poderá recorrer-se a **black-box testing**, avaliando o comportamento observável do sistema a partir das entradas, respostas e ações produzidas, sem depender do acesso à implementação interna. Assim, black-box testing é uma possível abordagem de teste dentro do benchmarking, não uma alternativa à estratégia de avaliação.
+
 A fase prática deverá responder a duas perguntas:
 
 - **Porque é que escolhemos o ambiente em que estamos a trabalhar?** A resposta deverá justificar se o ambiente permite representar aplicações baseadas em LLMs, introduzir conteúdos não confiáveis, configurar ferramentas e permissões e observar tentativas de fuga de dados ou de ações não autorizadas. Deverá também considerar a segurança, a possibilidade de repetir experiências e a recolha de métricas.
