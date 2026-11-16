@@ -53,3 +53,14 @@ Na amostra analisada há um estudo de 2023, quatro de 2024, dois de 2025 e dois 
 6. Os resultados de uma defesa num benchmark não garantem o mesmo desempenho noutras aplicações.
 
 Por estas razões, as conclusões devem ser entendidas como uma síntese crítica dos nove estudos analisados, e não como uma estimativa da eficácia de todas as defesas disponíveis ou uma revisão exaustiva da literatura.
+
+## Trabalho futuro: preparação da componente prática
+
+A revisão teórica fornece a base para uma componente prática a desenvolver numa fase posterior. Essa componente ainda não foi realizada. O objetivo será selecionar um ambiente controlado, simular cenários de *prompt injection* e avaliar algumas das defesas identificadas, procurando reproduzir as métricas de sucesso e de desempenho recolhidas nos artigos.
+
+A fase prática deverá responder a duas perguntas:
+
+- **Porque é que escolhemos o ambiente em que estamos a trabalhar?** A resposta deverá justificar se o ambiente permite representar aplicações baseadas em LLMs, introduzir conteúdos não confiáveis, configurar ferramentas e permissões e observar tentativas de fuga de dados ou de ações não autorizadas. Deverá também considerar a segurança, a possibilidade de repetir experiências e a recolha de métricas.
+- **De que maneira é que o nosso ambiente poderia ser diferente e melhor?** A resposta deverá identificar limitações do ambiente escolhido e propor melhorias, por exemplo ao nível da variedade de modelos, ferramentas, tarefas, ataques, defesas ou dimensão dos testes.
+
+Estas questões são pontos de trabalho a desenvolver quando o ambiente estiver definido. Não representam resultados nem limitações já confirmadas. A proposta mais detalhada está em [07-trabalho-futuro.md](07-trabalho-futuro.md).
